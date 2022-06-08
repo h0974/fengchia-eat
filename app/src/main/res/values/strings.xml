@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Final project</string>
+
+    <string name="shop">麥當勞</string>
+    <string name="shipping">$15</string>
+
+    <string-array name="shop_name">
+        <item>麥當勞</item>
+        <item>早安有喜</item>
+        <item>肯德基</item>
+        <item>50嵐</item>
+        <item>爭鮮</item>
+    </string-array>
+
+    <string-array name="shipping_fee">
+        <item>$15</item>
+        <item>$30</item>
+        <item>$25</item>
+        <item>$15</item>
+        <item>$10</item>
+    </string-array>
 </resources>
