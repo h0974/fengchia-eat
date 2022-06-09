@@ -22,6 +22,9 @@
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity
+            android:name=".ShoppingCart_temp"
+            android:exported="false" />
+        <activity
             android:name=".ShopMenuNew_activity"
             android:exported="false" />
         <activity
