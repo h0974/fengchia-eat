@@ -8,7 +8,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -60,9 +59,5 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
       Intent intent = new Intent(MainActivity.this,ShopMenuNew_activity.class);
       startActivity(intent);
 
-  }
-  public void goProfile (View view){
-    Intent intent = new Intent (this, ProfileActivity.class);
-    startActivity(intent);
   }
 }

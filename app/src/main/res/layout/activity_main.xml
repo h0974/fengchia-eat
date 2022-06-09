@@ -11,25 +11,7 @@
         android:id="@+id/mRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#002AFF"
-        android:backgroundTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="272dp"
-        android:layout_marginTop="664dp"
-        android:background="#3165FF"
-        android:backgroundTint="#FFFFFF"
-        android:onClick="goProfile"
-        android:text="個人資料"
-        android:textColorHighlight="#FF0000"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:rippleColor="#FF0000" />
 </androidx.constraintlayout.widget.ConstraintLayout>
