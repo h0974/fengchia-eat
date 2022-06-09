@@ -6,20 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ProfileActivity extends AppCompatActivity {
+public class RiderActivity extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_profile);
+    setContentView(R.layout.activity_rider);
   }
 
-  public void goBackMain (View view){
-    finish();
-  }
-
-  public void goRider (View view){
-    Intent intent = new Intent (this, RiderActivity.class);
+  public void goArrival (View view){
+    Intent intent = new Intent (this, ArrivalActivity.class);
     startActivity(intent);
   }
 

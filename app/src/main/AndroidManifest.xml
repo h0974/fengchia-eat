@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".RiderendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArrivalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RiderActivity"
+            android:exported="false" />
+        <activity
             android:name=".ProfileActivity"
             android:exported="false" />
         <activity

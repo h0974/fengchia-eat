@@ -3,6 +3,7 @@
 
     <string name="shop">麥當勞</string>
     <string name="shipping">$15</string>
+    <string name="list1">$420</string>
 
     <string-array name="shop_name">
         <item>麥當勞</item>
