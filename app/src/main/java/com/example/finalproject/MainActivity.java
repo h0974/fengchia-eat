@@ -18,7 +18,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements RecyclerViewInterface{
     public static boolean VALID_USER = true;
 
     ArrayList<ShopModel> shopModels = new ArrayList<>();
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
        setUpShopModel();
 
-       Shop_RecyclerAdapter adapter = new Shop_RecyclerAdapter(this,shopModels);
+       Shop_RecyclerAdapter adapter = new Shop_RecyclerAdapter(this,shopModels,this);
        recyclerView.setAdapter(adapter);
        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -53,4 +53,11 @@ public class MainActivity extends AppCompatActivity {
         shopModels.add(new ShopModel(shopNames[i],shippingFees[i],shopImages[i]));
       }
     }
+
+  @Override
+  public void onItemClick(int position) {
+      Intent intent = new Intent(MainActivity.this,ShopMenuNew_activity.class);
+      startActivity(intent);
+
+  }
 }
