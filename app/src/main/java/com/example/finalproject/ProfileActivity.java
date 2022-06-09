@@ -2,7 +2,9 @@ package com.example.finalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class ProfileActivity extends AppCompatActivity {
 
@@ -11,4 +13,8 @@ public class ProfileActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_profile);
   }
+  public void goBackMain (View view){
+    finish();
+  }
 }
+//goBackMain
