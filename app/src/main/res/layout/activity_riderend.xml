@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".RiderendActivity">
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="288dp"
+        android:layout_height="74dp"
+        android:text="目前尚無訂單.."
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="72dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
