@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".ShoppingCart_temp"
+            android:exported="false" />
+        <activity
             android:name=".ShopMenuNew_activity"
             android:exported="false" />
         <activity
