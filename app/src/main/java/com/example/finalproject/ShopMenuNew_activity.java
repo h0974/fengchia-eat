@@ -47,7 +47,5 @@ public class ShopMenuNew_activity extends AppCompatActivity {
     listViewData = findViewById(R.id.listview_data);
     adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_multiple_choice,arrayMenu);
     listViewData.setAdapter(adapter);
-
-
   }
 }
