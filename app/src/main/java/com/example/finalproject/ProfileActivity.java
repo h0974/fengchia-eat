@@ -23,4 +23,9 @@ public class ProfileActivity extends AppCompatActivity {
     startActivity(intent);
   }
 
+  public void goStore (View view){
+    Intent intent = new Intent (this, StoreActivity.class);
+    startActivity(intent);
+  }
+
 }

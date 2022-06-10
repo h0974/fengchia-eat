@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".StoreActivity"
+            android:exported="false" />
+        <activity
             android:name=".RiderendActivity"
             android:exported="false" />
         <activity
